@@ -38,6 +38,7 @@ else
     $luggageFare = 0;
 }
 
+
 if ($cabType == 'CedMicro')
 {
     $fixedFare = 50;
@@ -198,8 +199,4 @@ elseif ($cabType == 'CedSUV')
     }
     echo $finalFare = $totalFare + $fixedFare + $luggageFareSUV;
 }
-
-//echo "PickUp= ".$pickupLocation." Drop= ".$dropLocation." CabType= ".$cabType." Luggage= ".$luggage;
-// echo json_encode($exarray);
-
 ?>

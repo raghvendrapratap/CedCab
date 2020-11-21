@@ -48,8 +48,6 @@ $(function() {
         var cabType = $("#type").val();
         var luggage = $("#luggage").val();
 
-        //$("#submit").removeAttr('data-target');
-
         if (pickupLocation == "" || dropLocation == "" || cabType == "") {
 
             if (pickupLocation == "") {
