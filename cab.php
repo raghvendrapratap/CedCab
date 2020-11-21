@@ -20,16 +20,16 @@ $distance = abs($pickupKM - $dropKM);
 
 if ($luggage != null)
 {
-    if ($luggage <= 10)
-    {
+    if($luggage==0){
+        $luggageFare = 0;
+    }
+    elseif ($luggage <= 10){
         $luggageFare = 50;
     }
-    elseif ($luggage <= 20)
-    {
+    elseif ($luggage <= 20){
         $luggageFare = 100;
     }
-    elseif ($luggage > 20)
-    {
+    elseif ($luggage > 20){
         $luggageFare = 200;
     }
 }

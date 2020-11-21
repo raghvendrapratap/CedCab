@@ -53,7 +53,6 @@ $(function() {
             if (pickupLocation == "") {
                 $("#pickupMsg1").show();
             }
-
             if (cabType == "") {
                 $("#typeMsg").show();
             }
